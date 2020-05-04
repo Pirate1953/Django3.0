@@ -1,0 +1,16 @@
+<=====================================>
+
+python -m pip install Django - Установка Django
+python -m django --version - просмотреть версию Django
+django-admin startproject <PROJECT_NAME> - создать проект
+python manage.py runserver - запустить dev-сервер
+python manage.py startapp <APP_NAME> - создать приложение
+
+python manage.py migrate - создать таблицы базы данных
+python manage.py makemigrations <APP_NAME> - создать миграции для хранения изменений в моделях (в БД)
+python manage.py sqlmigrate <APP_NAME> 0001 - получить SQL для миграций
+
+python manage.py shell - запустить shell
+
+python manage.py createsuperuser - создать супер-пользователя (для admin-site)
+python manage.py test <APP_NAME> - запустить тесты для приложения
